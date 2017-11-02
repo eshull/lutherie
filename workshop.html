@@ -1,31 +1,24 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <html lang="en-us">
-
     <head>
         <title>Site Name | Page Name</title>
         <meta charset="utf-8" />
         <meta name="description" content="" />
         <meta name="keywords" content="" />
-
         <!-- This prevents the browser from zooming on mobile devices -->
-        <!--<meta name="viewport" content="width=device-width; initial-scale=1.0;">-->
-
-         <!-- Typekit Link-->
-        <script src="https://use.typekit.net/qxz7sgn.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
+        <meta name="viewport" content="width=device-width; initial-scale=1.0;">
         <link rel="shortcut icon" href="favicon.ico" />
         <link rel="Stylesheet" href="css/style.css" type="text/css" media="all" />
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="js/scripts.js"></script>
     </head>
-        <body>
-             <div class="logo">
+    <body>
+        <div class="logo">
             <a href="index.html"><img width="128" height="65" src="img/lute_logo.png"></a>
         </div>
-         <header>
+        <header class="screen">
             <ul>
                 <li><a href="index.html">HOME</a></li>
                 <li>
@@ -43,10 +36,14 @@
                 <li><a href="about_eric_shull.html">CONTACT</a></li>
                 <li><a href="research.html">RESEARCH</a></li>
             </ul>
-
         </header>
-        <div class="site_title"> <h3>Workshop</h3></div>
-            <div class="workshop_gallery"> 
+         <nav class="dropdown">
+            <button class="dropbtn"><img class="hamburgernav" max height="40px" max width="40px" src="img/hambnav-03.png"></button>
+            <div class="dropdown-content"><a href="index.html">Home</a><a href="renaissance_lutes.html">Renaissance Lutes</a> <a href="baroque_lutes.html">Baroque Lutes</a> <a href="classical_guitars.html">Classical Guitars</a> <a href="baroque_guitars.html">Baroque Guitars</a> <a href="workshop.html">Workshop</a> <a href="about_eric_shull.html">Contact</a> <a href="research.html">Research</a> </div>
+        </nav>
+        <div class="site_title">
+            <h3>Workshop</h3></div>
+        <div class="workshop_gallery">
             <img src="img/JPEG/ebony_frets.jpg">
             <img src="img/JPEG/eric_nameplate.jpg">
             <img src="img/JPEG/finished_lute.jpg">
@@ -65,7 +62,9 @@
             <img src="img/JPEG/ribs_paperstrips.jpg">
             <img src="img/JPEG/veneered_neck.jpg">
             <img src="img/JPEG/wax_finish_lute.jpg">
-            </div>
-                  <footer> <div class="footerinfo">ERIC SHULL  |  LUTHIER  |  PORTLAND, OR </div></footer>
-        </body>
+        </div>
+        <footer>
+            <div class="footerinfo">ERIC SHULL | LUTHIER | PORTLAND, OR </div>
+        </footer>
+    </body>
     </html>
