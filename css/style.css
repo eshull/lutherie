@@ -262,7 +262,7 @@ li {
     width: 100%;
     justify-content: space-around;
     margin-top: -10px;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
 }
 
 .baroqueguitar .built_instruments {
@@ -284,7 +284,6 @@ li {
 
 img {
     max-width: 100%;
-    max-height: 100%;
 }
 
 .categories {
@@ -307,8 +306,8 @@ img {
     max-height: 500px;
     justify-content: center;
     letter-spacing: 2px;
-    margin-bottom: 60px;
 }
+
 .title div {
     display: flex;
     flex-direction: row;
@@ -378,10 +377,15 @@ h5 {
 h6 {
     font-family: sans-serif;
      color: white;
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 10px;
     display: flex;
     justify-content: center;
+    background-color: black;
+    padding: 13px;
+    border: solid;
+    border-width: thin;
+    border-color: white;
 }
 p {
     height: 360px;
@@ -568,6 +572,9 @@ nav {
         margin-top: -110px;
     }
 
+    .title {
+        margin-bottom: 60px;
+    }
     .screen {
         display: none;
     }
@@ -624,8 +631,9 @@ h1 {
     h5 {
         display: flex;
         flex-wrap: wrap;
-    
     }
+    
+ 
     .youtube {
         display: flex;
         flex-direction: column;
@@ -657,7 +665,7 @@ iframe {
     }
     
     h1 {
-        font-size: 14px;
+        font-size: 11px;
     }
     
     h4 {
