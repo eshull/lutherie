@@ -194,6 +194,7 @@ footer {
     height: 70px;
     letter-spacing: 3px;
 }
+
 .logo {
         position: fixed;
         left: 10px;
@@ -210,6 +211,7 @@ footer {
      position: absolute;
     z-index: -1;
 }
+
 .image_layout {
     display: flex;
     flex-direction: row-reverse;
@@ -280,7 +282,9 @@ li {
 }
 
 
-
+img {
+    max-width: 100%;
+}
 
 .categories {
     display: flex;
