@@ -581,6 +581,10 @@ nav {
         margin-top: -10px;
     }
     
+    .instrument_caption {
+    width: 350px;
+    }
+    
     .firstcolumn {
         margin-bottom: 30px;
        justify-content: center;
