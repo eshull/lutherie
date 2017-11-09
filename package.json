@@ -1,0 +1,26 @@
+{
+  "name": "lutherie",
+  "version": "0.0.1",
+  "description": "\"A personal lutherie website.\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eshull/lutherie.git"
+  },
+  "keywords": [
+    "lutherie"
+  ],
+  "author": "eshull",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eshull/lutherie/issues"
+  },
+  "homepage": "https://github.com/eshull/lutherie#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1"
+  }
+}
